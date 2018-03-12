@@ -1,0 +1,14 @@
+{
+  "sourceMaps": true,
+  "ignore": ["dist"],
+  "presets": ["env", {
+    "targets": {
+      "node": "6.10"
+    }
+  }],
+  "env": {
+    "production": {
+      "ignore": ["tests", "dist"]
+    }
+  }
+}
